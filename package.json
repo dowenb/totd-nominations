@@ -1,0 +1,36 @@
+{
+  "name": "totd-nominations",
+  "version": "1.0.0",
+  "description": "Collect nominations for Tester of The Day",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowenb/totd-nominations.git"
+  },
+  "keywords": [
+    "Tester",
+    "of",
+    "The",
+    "Day",
+    "Nominations"
+  ],
+  "author": "Ben Dowen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dowenb/totd-nominations/issues"
+  },
+  "homepage": "https://github.com/dowenb/totd-nominations#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
